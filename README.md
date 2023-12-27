@@ -7,6 +7,11 @@ I was inspired to create this script when I learned that someone had to manually
 I plan on doing changes in the future so that this will only check for files in mails sent on the day the script was run or a alteration of this which only checks unread mail.
 
 =========================================================
+
+WARNING: THIS WILL DOWNLOAD ANY FILES IN THE EMAILS, SO BEWARE AND BECAREFULL OF MALWARE AND OTHER UNSAFE FILES, WILL MAKE IT ONLY DOWNLOAD FILES OF GIVEN TYPE IN FUTURE UPDATE
+
+==========================================================
+
 How to use:
 1.Use your desired code editor and open the .py file
 2.Look for the section which contains the parameters which are email_host, email_user, email_password, target_subject, download_folder
@@ -14,6 +19,7 @@ How to use:
 
 
 =========================================================
+
 Points to note:
 1. In my case my email host was gmail, for which the email_host is "imap.gmail.com", you will have to find the imap for your email host
 2. You may have to enable imap settings for you email account, and then generate an app password which will be used instead of your normal password
